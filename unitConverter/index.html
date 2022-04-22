@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="block">
+        <div class="intrBlock">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input type="number" id="numberValue" name="numberValue" min="0">
+        <button onclick="convert()">Change Number</button>
+        <h2 id="calcNumber"></h2>
+        </div>
+        <div class="resultsBlock">
+            <h3>Lenght (Meter/Feet)</h3>
+            <span id="calcFeetEl"></span> | <span id="calcMeterEl"></span>
+            <h3>Volume (Liters/Gallons)</h3>
+            <p><span id="calcLitersEl"></span> | <span id="calcGallonsEl"></span></p>
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p><span id="calcKilosEl"></span> | <span id="calcPoundsEl"></span></p>
+        </div>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
